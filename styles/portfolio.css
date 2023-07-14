@@ -232,3 +232,18 @@ textarea{
 .footer-icon{
   margin-right: 25px;
 }
+
+
+/* Responsive Styles */
+.hide{
+  display: none;
+}
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  .skill-container{
+    flex-direction: column;
+  }
+  #what-I-do-description{
+    padding: 0px;
+  }
+}
