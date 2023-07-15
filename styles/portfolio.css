@@ -246,4 +246,7 @@ textarea{
   #what-I-do-description{
     padding: 20px;
   }
+  .resume-container{
+    flex-direction: column;
+  }
 }
