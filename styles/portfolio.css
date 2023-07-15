@@ -194,86 +194,132 @@ main section {
 }
 
 .footer-paragraph {
-  color:#474747;
+  color: #474747;
   font-size: 16px;
   font-weight: 400;
 }
 
-footer{
+footer {
   display: flex;
   gap: 100px;
-  background: #FFF8F3;
+  background: #fff8f3;
   padding: 130px 200px;
 
   margin-top: 100px;
-
 }
 
-
-footer input[type="text"], input[type="email"], textarea{
+footer input[type="text"],
+input[type="email"],
+textarea {
   display: block;
   margin-bottom: 25px;
   padding: 18px 35px;
-  color:#757575;
+  color: #757575;
   border: none;
   border-radius: 5px;
   width: 100%;
 }
 
-.footer-column{
+.footer-column {
   width: 50%;
-  
 }
 
-textarea{
+textarea {
   margin-top: 20px;
 }
 
-.footer-icon{
+.footer-icon {
   margin-right: 25px;
 }
 
-
 /* Responsive Styles */
-.hide{
-   display: none;
+.hide {
+  display: none;
 }
 /* mobile devices */
 @media screen and (max-width: 576px) {
-  .skill-container, .resume-container, footer{
+  .header {
+    background-image: none;
+  }
+  .skill-container,
+  .resume-container,
+  footer {
     flex-direction: column;
   }
-  #what-I-do-description{
+  #what-I-do-description {
     padding: 20px;
   }
-  footer{
+  footer {
     padding: 20px;
     align-items: center;
   }
-  .footer-column{
+  .footer-column {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  footer form{
+  footer form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .about{
+  .about {
     padding: 10px;
   }
-  .about-info-container{
+  .about-info-container {
     flex-direction: column;
   }
-  .about-info{
+  .about-info {
     text-align: center;
+  }
+  .banner,
+  nav,
+  nav > ul {
+    flex-direction: column;
+  }
+  .banner > img {
+    width: 100%;
+    height: fit-content;
+  }
+  .banner {
+    padding: 20px;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .banner-description {
+    width: 100%;
+  }
+  .primary-btn {
+    margin-bottom: 10px;
+  }
+  nav {
+    margin: 10px;
+    width: 100%;
+    padding: 0;
+    align-items: baseline;
+  }
+  li {
+    margin: 5px;
+  }
+  nav > ul {
+    align-items: start;
+    padding: 0;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-pic {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    
   }
 }
 
-@media screen and (min-width:576px) and (max-width: 992px) {
-  .resume-container{
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .resume-container {
     padding: 20px;
   }
 }
