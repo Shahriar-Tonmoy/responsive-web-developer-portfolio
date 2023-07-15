@@ -244,6 +244,6 @@ textarea{
     flex-direction: column;
   }
   #what-I-do-description{
-    padding: 0px;
+    padding: 20px;
   }
 }
