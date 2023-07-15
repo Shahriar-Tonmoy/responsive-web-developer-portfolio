@@ -240,14 +240,26 @@ textarea{
 }
 /* mobile devices */
 @media screen and (max-width: 576px) {
-  .skill-container{
+  .skill-container, .resume-container, footer{
     flex-direction: column;
   }
   #what-I-do-description{
     padding: 20px;
   }
-  .resume-container{
+  footer{
+    padding: 20px;
+    align-items: center;
+  }
+  .footer-column{
+    width: 100%;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  footer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
