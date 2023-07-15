@@ -236,7 +236,7 @@ textarea{
 
 /* Responsive Styles */
 .hide{
-  display: none;
+  
 }
 /* mobile devices */
 @media screen and (max-width: 576px) {
